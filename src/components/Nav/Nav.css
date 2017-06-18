@@ -1,0 +1,122 @@
+.menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #fff;
+    color: #313131;
+    transition: all .3s ease;
+    z-index: 999;
+}
+
+.menuShow {
+    left: 0px;
+}
+.menuHidden {
+    left: -200px;
+}
+
+.menu .loginContainer {
+    padding: 15px;
+    color: #313131;     
+}
+
+.menu .loginContainer a {
+    display: block;
+    position: relative;
+    padding: 10px 14px 20px;
+    border-bottom: 1px solid rgb(212, 212, 212); 
+}
+
+.menu .loginContainer a img:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.menu .loginContainer a img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    width: 5px;
+    height: 10px;
+}
+
+.menu .loginContainer a span {
+    font-family: Helvetica-Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    vertical-align: top;
+    color: #313131;    
+}
+
+.menu .notLoginContainer {
+    padding: 15px;
+    color: #313131;
+}
+
+.menu .notLoginContainer a {
+    display: block;
+    padding: 10px 14px 20px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.menu .notLoginContainer a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.menu .notLoginContainer a span {
+    font-family: Helvetica-Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    vertical-align: top;
+    color: #313131;
+}
+
+
+.menu .itemContainer {
+    padding: 15px;
+}
+
+.menu .itemContainer ul {
+    padding: 10px 14px 20px; 
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.menu .itemContainer ul li a{
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    line-height: 44px;
+    color: #313131;
+    font-weight: 700;    
+}
+
+.menu .about {
+    padding: 15px;
+}
+
+.menu .about a {
+    display: block;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    line-height: 44px;
+    color: #313131;
+    font-weight: 700;    
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.4);
+    z-index:100;    
+}
